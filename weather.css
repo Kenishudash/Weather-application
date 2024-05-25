@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.today{
+    text-align: left;
+}
+
+.card{
+    width: 100%;
+    max-width: 100%;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 0 auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: left;
+    flex: 1;
+    
+    
+    
+}
+
+
+.search{
+    width: 50%;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 16px;
+}
+.weather{
+    columns: 50%;
+}
+
+.weather-icon{
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 1000px;
+    
+}
+
+.weather h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-right: 650px;
+    margin-top: -40px;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-right: 650px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    flex: 3;
+    border: 1px solid;
+    border-right: 1px solid;
+    
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+    float: left;
+}
+
+.humidity, .wind, .pressure{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.copyright{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}

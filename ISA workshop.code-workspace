@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../New folder/Rock Paper Scissors"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Rock Paper Scissors"
+	}
+}
